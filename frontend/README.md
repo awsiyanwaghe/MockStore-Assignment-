@@ -1,16 +1,77 @@
-# React + Vite
+# 🛍️ MockStore - Full Stack E-Commerce Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A complete mock e-commerce application built with React frontend, Node.js/Express backend, and MongoDB database.**
 
-Currently, two official plugins are available:
+🌐 **Live Demo:https://mock-store-assignment.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
+🛒 Shopping Experience
+16+ Products - Diverse range across electronics, accessories, home, and sports categories
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Responsive Product Grid - Beautiful card layout with hover effects
 
-## Expanding the ESLint configuration
+Smart Cart System - Add, remove, and manage quantities seamlessly
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💳 Checkout & Payments
+Secure Checkout - Customer information form with validation
+
+Order Management - Complete order processing system
+
+Digital Receipts - Professional order confirmation with totals
+
+🎨 Modern Design
+Tailwind CSS - Beautiful, responsive design
+
+Mobile-First - Optimized for all devices
+
+Smooth Animations - Enhanced user experience
+---
+
+## 🛠️ Tech Stack 
+
+### Frontend
+- **React 18** -Modern React with hooks 
+- **Taiwind CSS** - Utility-first CSS framework 
+- **Contet API** - State management
+- **shadcn/ui** - Reusable UI components
+- **Axios** -  API communication
+
+### Backend & Database
+- **Node.js** - Runtime environment
+- **Express.js ** - Web framework
+- **MongoDB** - NoSQL database
+- **Mongoose** -ODM for MongoDB
+
+---
+
+### Installation
+
+1. **Clone the repository**
+```bash
+https://github.com/awsiyanwaghe/MockStore-Assignment-.git
+cd MockStore-Assignment
+```
+2. **Backend setup**
+```bash
+cd backend
+npm install
+```
+3. **Frontend setup**
+```bash  
+cd ../frontend
+npm install
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+3. **Environment Setup**
+```bash
+MONGODB_URI=mongodb://localhost:27017/ecommerce
+PORT=5000
+```
+---
+Built with ❤️ by Awsian Waghe
